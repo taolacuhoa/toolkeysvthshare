@@ -45,7 +45,7 @@ key1=str(ngay*1246881818+2888181472)
 key = 'HOAVIP'+key1
 keyv1 = 'hannie1231237123'
 url_8link = 'https://leminhhoadz.vn/?key='+key
-apikey_8link = '41f4465a54f6f0dd1b0c486d98da36ecd0dade3209dcfd8062befec77ce3d0f5'
+apikey_8link = '66c42554eb7f4e7b67316008'
 link1s = requests.get(f'https://partner.8link.io/api/public/gen-shorten-link?apikey={apikey_8link}&url={url_8link}').json()
 if 'shortened_url' not in link1s:
     print('Error: Unable to generate shortened link.')
